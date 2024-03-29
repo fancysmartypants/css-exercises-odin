@@ -1,0 +1,15 @@
+.one {
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.two {
+    background-color: yellow;
+}
+
+.one, .two {
+    /* Group selector follow the syntax of A, B; Don't confuse it with descendant selector which follows A B */
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
