@@ -1,0 +1,10 @@
+.container .text {
+/* either div p {delcarations} or div .text {declarations} would work.*/
+/* .container .text {declarations) or .container p {declarations} would work too. */
+/* You can also use child combinator > like div > p {declarations}*/
+    background-color: yellow;
+    color: red;
+    size: 20px;
+    text-align: center;
+}
+
