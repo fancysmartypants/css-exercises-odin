@@ -1,0 +1,19 @@
+.odd {
+    background-color: #ffc0cb;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+/* use font-family to specify a prioritized list of one or more font family names or generic family names. */
+}
+
+#second {
+    font-size: xx-large;
+    color: #0000ff;
+}
+
+.odd.third{
+    font-size: x-large;
+}
+
+#forth {
+    background-color: hsl(84, 100%, 59%);
+    font-weight: bold;
+}
