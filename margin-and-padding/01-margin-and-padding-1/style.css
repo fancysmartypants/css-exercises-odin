@@ -1,6 +1,6 @@
 body {
   max-width: 600px;
-  /* When you use  margin: 0 auto; the body will be centered. */
+  /* When you use  margin: 0 auto; (top and bottom | left and right ) the body will be centered. */
   margin: 0 auto;
 }
 
