@@ -5,7 +5,60 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+
 }
+
+/*remove bullet points from ul*/
+ul {
+  list-style-type:none;
+  padding: 10px;
+  margin: 0;
+}
+
+/*this should flatten the list */
+li {
+  display: inline;
+  padding: 5px;
+}
+
+/*remove underline from links and change color to grey*/
+a {
+  text-decoration: none;
+  color: rgb(86, 85, 85);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 16px;
+
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #eeeeee;
+
+
+}
+
+
 
 img {
   width: 600px;
@@ -16,6 +69,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
