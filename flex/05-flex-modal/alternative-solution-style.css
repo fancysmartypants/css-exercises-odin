@@ -27,22 +27,28 @@ body {
 
 }
 
+.left{
+  display: flex;
+  margin-right: 20px;
 
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+}
 
 .header {
   font-weight: 700;
   font-size: large;
-
-  display: flex;
-  justify-content: space-between;
-
 }
 
 
-.text {
-  margin: 16px 0px;
+.bottom {
+  margin-top: 20px;
 }
-
 
 .icon {
   color: royalblue;
@@ -55,11 +61,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  /*flex-shrink prevents icons from shrinking by the texts*/
-  flex-shrink: 0;
-  margin-right: 20px;
-
 }
 
 .close-button {
